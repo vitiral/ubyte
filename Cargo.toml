@@ -1,0 +1,14 @@
+[package]
+authors = ["Garrett Berg <vitiral@gmail.com>"]
+name = "ubin"
+version = "0.1.0"
+
+[dependencies]
+
+[dependencies.serde]
+default-features = false
+version = "1.*.*"
+
+[dependencies.byteorder]
+default-features = false
+version = "1.*.*"
