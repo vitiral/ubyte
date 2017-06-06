@@ -1,6 +1,6 @@
 [package]
 authors = ["Garrett Berg <vitiral@gmail.com>"]
-name = "ubin"
+name = "ubyte"
 version = "0.1.0"
 
 [dependencies]
@@ -12,3 +12,11 @@ version = "1.*.*"
 [dependencies.byteorder]
 default-features = false
 version = "1.*.*"
+
+[dev-dependencies]
+serde_bytes = "0.10.*"
+serde_derive = "1.*.*"
+
+[features]
+std = ["serde/std", "byteorder/std"]
+default = ["std"]
