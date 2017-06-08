@@ -1,3 +1,5 @@
+**use [ssmarshal](https://gitlab.com/robigalia/ssmarshal) instead**
+
 # ubyte: rust library for serialization/deserialization on microcontrollers
 
 ubyte (micro-byte) is a rust library implementing serde traits for
